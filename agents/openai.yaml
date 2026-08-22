@@ -1,0 +1,4 @@
+interface:
+  display_name: "Z Audio Production"
+  short_description: "Create approved production-ready audio packages"
+  default_prompt: "Use $z-audio-production to create an approved production-ready audio package from this script."
