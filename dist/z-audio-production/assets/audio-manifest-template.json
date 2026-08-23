@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "",
+    "name": "",
+    "audio_package_version": "",
+    "status": "draft"
+  },
+  "script": {
+    "version": "",
+    "language": "",
+    "path": "",
+    "pronunciation_notes_path": ""
+  },
+  "voice": {
+    "speaker": "",
+    "provider": "",
+    "model": "",
+    "voice_reference": "",
+    "identity_package_reference": "",
+    "consent_or_licence_reference": ""
+  },
+  "master": {
+    "path": "",
+    "duration_seconds": 0,
+    "codec": "",
+    "sample_rate_hz": 0,
+    "channels": 0,
+    "sha256": "",
+    "approved_by": "",
+    "approved_at": ""
+  },
+  "segments": [],
+  "provider_jobs": [],
+  "cost": {
+    "currency": "USD",
+    "estimated": 0,
+    "actual": 0
+  },
+  "quality_control": {
+    "listening_passed": false,
+    "technical_passed": false,
+    "notes": ""
+  },
+  "handoff": {
+    "recipient": "",
+    "date": "",
+    "notes": ""
+  }
+}
