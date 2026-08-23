@@ -30,7 +30,7 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 ## 3. Verify The Production Route
 
 - Confirm the tool/API is callable. Documented capability ≠ live route.
-- Estimate the whole assignment before paid work. Stop if it exceeds the user budget or the org limit (the default auto-approved micro-budget is **$2.00 cumulative**; see `references/implementation-profile.md`).
+- Estimate the whole assignment before paid work. Stop if it exceeds the user budget or the organization limit. For ZedBiz work, the default is **$2.00 cumulative only when Get-er-Done authority applies**; follow the [ZedBiz implementation profile](references/implementation-profile.md).
 - Do not silently change provider, model, voice, or language.
 - *Avatar Routing:* For a disposable proof or approved non-brand rapid job, provider-native avatar audio may be used when it is the simplest reliable route and a usable dry master is retained. For recurring voices, approved brand identities, or lip-sync-critical work, keep an independent approved dry master and give the avatar tool exact extracts from that master.
 
@@ -52,7 +52,7 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - One transient retry after checking real job status.
 - Two paid failures on the same unit → stop.
 - Stop when consent, ownership, or budget is unresolved.
-- For data privacy, credentials, and rollback procedures, refer to `references/security-review.md`.
+- Follow the [security and rollback review](references/security-review.md) for data privacy, credentials, and rollback procedures.
 
 ## References (Load as needed based on Lane)
 - [Provider Selection & Auditions](references/provider-selection.md) (Brand Voice)
