@@ -19,10 +19,13 @@ Do not describe a provider-specific voice ID as owned or portable unless the pro
 
 Choose by the job, not by novelty.
 
+- **Rapid Production:** use an existing approved brand voice or approved stock voice for one-off narration, temporary proofs, training items, and short promotions. Skip the audition matrix while retaining cost, rights, quality, versioning, and completion controls.
+- **Brand Voice Creation:** use the controlled audition only when creating or materially changing a recurring identity.
 - **Permanent branded voice:** use a ZedBiz-owned account and a provider that supports persistent private voices, commercial rights, reproducible settings, lossless output, and reliable API access. Run a same-script audition before committing.
 - **Quick general narration:** use an approved stock voice through a ready native route when uniqueness is not required.
 - **Temporary proof:** use the least expensive approved route and label the output as a proof, not the brand master.
-- **Avatar or lip-sync input:** deliver the approved dry master or exact scene extracts. The avatar provider does not need to own the voice.
+- **Recurring brand avatar or lip-sync input:** deliver the canonical approved dry master or exact scene extracts. Do not move an established voice into the avatar provider merely for convenience.
+- **Proof or non-brand avatar input:** the avatar provider may create the audio when its native voice is already approved, the combined route is demonstrably faster or cheaper, and the dry master can be exported and retained. The audio skill chooses the voice route; the video skill owns avatar generation.
 - **Conversational agent replies:** keep separate from production narration. Ordinary chat TTS should not activate this skill unless the user requests production audio.
 
 ## Current ZedBiz Provider Profile
@@ -40,6 +43,8 @@ Verify current availability, terms, model support, and price before use.
 No provider should be selected solely because it is newly integrated into a platform.
 
 ## Controlled Audition
+
+Use this process only for a new or materially changed recurring brand voice. Do not require it for an existing approved voice, approved stock narration, or a labelled temporary proof.
 
 Use one script containing:
 

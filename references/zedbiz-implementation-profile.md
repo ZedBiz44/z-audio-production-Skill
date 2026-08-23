@@ -19,7 +19,12 @@
 
 - Get-er-Done Mode: build the smallest working approved route, test immediately, and record evidence.
 - Diagnose Mode: investigate and propose; make no changes until confirmation.
-- Require consent for voice cloning, approval for material paid generation, and explicit authorization for production-impacting deployment.
+- In Get-er-Done Mode, up to **USD $2.00 estimated total per assignment** is pre-approved when using an existing approved provider and voice with a final script.
+- The $2.00 limit includes every segment and expected retry in the assignment. It is not a per-call or per-file allowance.
+- The micro-budget does not authorize voice cloning, creation or material change of a recurring identity, subscriptions, credit top-ups, destructive actions, or production deployment.
+- Diagnose Mode never authorizes paid generation.
+- A user-supplied budget overrides the default. Stop for approval when the estimate exceeds the applicable limit.
+- Require consent for voice cloning, approval for paid work outside the applicable limit, and explicit authorization for production-impacting deployment.
 - Test one agent first, verify, then expand.
 - Stop after two failed paid attempts for the same unit or three failed validation/repair attempts.
 - Roll back to the last committed and approved skill version.

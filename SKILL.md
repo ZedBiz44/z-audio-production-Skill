@@ -41,7 +41,21 @@ Read [Voice identity and provider selection](references/provider-selection.md) w
 
 For provider-specific operating constraints, read [Voice identity and provider selection](references/provider-selection.md). For target-platform placement and discovery, read the relevant adapter: [Codex](references/codex.md), [OpenClaw](references/openclaw.md), or [Hermes](references/hermes.md).
 
-## Approve The Voice Before Full Production
+## Choose The Execution Lane
+
+Use **Rapid Production** when the job uses an existing approved brand voice or an approved stock voice for a one-off narration, temporary proof, training item, or short promotion. Do not run a new audition matrix. Still verify the live route, estimate cost, label proofs, perform quality checks, and preserve the output record.
+
+Use **Brand Voice Creation** only when creating or materially changing a recurring voice such as Zeke, Maggie, or another durable identity. Run the controlled audition and approval process before full production.
+
+For a talking-avatar handoff, choose only the audio route:
+
+- keep an established recurring brand voice with its approved master-audio provider and hand the exact approved audio to the avatar workflow;
+- for a proof or non-brand job, the avatar provider may create the audio when its native voice is already approved, the combined route is demonstrably faster or less expensive, and a reusable dry master can be retained;
+- never replace an established voice merely to save one provider step.
+
+The future `z-video-production` skill still owns avatar generation and visual production.
+
+## Approve A New Brand Voice
 
 For a new or materially changed recurring voice:
 
@@ -111,7 +125,9 @@ The future `z-video-production` skill should call this skill, accept its approve
 
 ## Failure And Stop Conditions
 
-- Stop before paid work when no cost ceiling or approval exists for a material job.
+- Follow the user's stated budget or the approved organization implementation profile. Without either, stop before paid work.
+- Treat the applicable micro-budget as the estimated total for the entire assignment, including segments and expected retries—not as a per-call allowance.
+- Never use a micro-budget to create or clone a new recurring voice, buy a subscription, top up credits, or spend in Diagnose Mode.
 - Retry one clearly transient failure after checking final job status.
 - After two failed paid generations for the same unit, preserve evidence and stop; do not burn credits through blind retries.
 - Stop when consent, ownership, provider access, voice identity, script version, or output destination is unresolved.
