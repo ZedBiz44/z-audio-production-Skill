@@ -32,7 +32,7 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - Confirm the tool/API is callable. Documented capability ≠ live route.
 - Estimate the whole assignment before paid work. Stop if it exceeds the user budget or the org limit.
 - Do not silently change provider, model, voice, or language.
-- *Avatar Routing:* If the final deliverable requires a talking avatar, and the avatar provider natively supports the required voice, generate the audio directly within the avatar provider to avoid duplicate processing.
+- *Avatar Routing:* For a disposable proof or approved non-brand rapid job, provider-native avatar audio may be used when it is the simplest reliable route and a usable dry master is retained. For recurring voices, approved brand identities, or lip-sync-critical work, keep an independent approved dry master and give the avatar tool exact extracts from that master.
 
 ## 4. Produce The Approved Dry Master
 
@@ -57,5 +57,6 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - [Provider Selection & Auditions](references/provider-selection.md) (Brand Voice)
 - [Audio Workflows](references/audio-workflows.md) (Brand Voice)
 - [Quality Gates](references/quality-gates.md) (Brand Voice)
+- [Audio-To-Video Handoff](references/video-handoff.md) (Video Handoff)
 - [Audio Manifest Template](assets/audio-manifest-template.json) (Brand Voice / Handoff)
 - [Production Brief Template](assets/audio-production-brief-template.md) (Brand Voice)
