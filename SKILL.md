@@ -1,6 +1,6 @@
 ---
 name: z-audio-production
-description: Create, revise, inspect, and package production-ready narration, branded voices, TTS, voice clones, audio masters, and video-ready audio handoffs.
+description: Use for approved narration and production audio packages.
 ---
 
 # Z Audio Production
