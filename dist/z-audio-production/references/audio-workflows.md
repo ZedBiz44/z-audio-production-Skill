@@ -15,6 +15,7 @@
 - Confirm consent and permitted uses before upload.
 - Create short same-script auditions and review them at normal playback speed on headphones and ordinary speakers.
 - Save the chosen identity, settings, audition file, and approval decision in the Voice Identity Package.
+- Require the completed Brand Voice Package before an agent uses a new recurring voice for production.
 
 ## Master Narration
 
@@ -24,6 +25,7 @@
 - Check the beginning and end for clipped consonants, missing words, truncated tails, or extra fabricated speech.
 - Save the authoritative video-production master as 48 kHz PCM WAV unless the receiver requires another lossless format.
 - Create MP3, AAC, or other compressed files only as review or delivery derivatives.
+- Download and attach or save every requested deliverable. Do not substitute a provider link or status message for the audio file.
 
 ## Cleanup And Mastering
 
@@ -54,3 +56,4 @@ When no delivery loudness is specified, report the measured level rather than ap
 - Preserve the previous approved version until the replacement is approved.
 - Regenerate only derivatives that depend on the changed passage.
 - Record why the revision occurred, who approved it, and which downstream assets are now stale.
+
