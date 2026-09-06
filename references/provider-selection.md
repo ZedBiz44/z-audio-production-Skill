@@ -15,6 +15,14 @@ Treat the provider as replaceable and the lawful Voice Identity Package as the d
 
 Do not describe a provider-specific voice ID as owned or portable unless the provider contract explicitly grants that right.
 
+## Human And Agent Responsibilities
+
+- The human voice producer defines the character, gathers lawful source material, creates or auditions candidates, and gets approval.
+- The approver selects the winning voice and permitted business uses.
+- The human voice producer delivers a completed [Brand Voice Package](../assets/brand-voice-package-template.md), including the exact provider voice ID. Never send an API key in the package.
+- The production agent uses the approved voice ID and locked settings. It must not redesign, clone, replace, or “improve” the identity without a new approval cycle.
+- Keep a separate package for every venture and recurring character. Do not reuse a voice across ventures merely because it sounds suitable.
+
 ## Route Selection
 
 Choose by the job, not by novelty.
@@ -38,6 +46,18 @@ Verify current availability, terms, model support, and price before use.
 - **Self-hosted voice engines:** consider only when privacy, scale, or provider independence justifies GPU hosting, maintenance, monitoring, and QA.
 
 No provider should be selected solely because it is newly integrated into a platform.
+
+## Fish Audio Through OpenClaw
+
+- Use the official `@openclaw/fish-audio-speech` plugin and install the version compatible with the active OpenClaw runtime.
+- Keep `FISH_API_KEY` in the approved secret manager and expose it through an environment SecretRef. Never place its value in skill files, agent prompts, manifests, or chat.
+- Treat Fish API billing as separate from ordinary Fish platform credit. A `402` response means the API balance must be reviewed by the account owner; do not retry.
+- Use hosted `s2.1-pro` for production unless a currently verified requirement supports another model.
+- Keep automatic chat narration limited to explicitly tagged output when production agents share the same TTS provider.
+- A Fish voice must be created, trained, or selected in Fish before OpenClaw can use it. OpenClaw consumes the approved `speakerVoiceId`; it does not create the voice identity.
+- For a temporary route proof without an approved voice ID, use the default Fish voice and label the result `default-voice-proof`. Never present it as a brand voice.
+- After generation, download the real MP3 or other requested audio file, inspect it, listen to it, and attach it to the thread or save it at the requested destination. A remote link alone is incomplete.
+- Record model, voice ID, script version, expressive tags, output filename, duration, cost when available, and approval state.
 
 ## Controlled Audition
 
@@ -69,3 +89,4 @@ Save the results and approval decision. Do not casually change a recurring brand
 - Record the model, voice or avatar ID, job ID, estimate, actual credits, script version, and downloaded output.
 - Do not submit duplicate jobs because polling is slow.
 - A successful model listing proves access, not output quality. A paid or controlled generation proves the end-to-end route.
+
