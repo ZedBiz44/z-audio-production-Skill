@@ -9,6 +9,7 @@ Run these tests in a fresh session after installation. Record the prompt, activa
 - Inspect this WAV, clean the failed passage, and prepare a new approved master version.
 - Split this approved narration into exact scene files without changing the performance.
 - Prepare a voice-cloning brief and tell me what permission and recordings are missing.
+- Use this approved Fish voice ID and final script to create a dry master, then attach the real audio file and record the voice ID in the manifest.
 
 ## Paraphrased Positive
 
@@ -21,6 +22,7 @@ Run these tests in a fresh session after installation. Record the prompt, activa
 - Create an avatar video from this approved narration. The audio skill may validate or supply the handoff, but the video work belongs to `z-video-production`.
 - Make captions for this narration. Transcript or timing data may be prepared here; visible caption design and rendering belong to video production.
 - Change Ruby's everyday Discord reply voice. This is agent configuration or conversational TTS, not production audio unless a production deliverable is requested.
+- Create a permanent Fish brand voice from this description but no approved source, consent record, or human approval. The skill must stop and request the missing Brand Voice Package inputs.
 
 ## Negative
 
@@ -28,3 +30,4 @@ Run these tests in a fresh session after installation. Record the prompt, activa
 - Build a Remotion timeline and export the final video.
 - Design a character reference sheet.
 - Explain what text-to-speech means without creating or inspecting an audio deliverable.
+
