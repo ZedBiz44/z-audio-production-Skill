@@ -19,6 +19,7 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 **Brand Voice / Client Lane** (For recurring brand identities, voice clones, or video handoffs)
 - Require a Voice Identity Package and explicit consent.
 - Run a controlled same-script audition if the voice is new.
+- Use the [Brand Voice Package Template](assets/brand-voice-package-template.md) for the human-to-agent handoff.
 - Deliver a 48 kHz PCM WAV dry master and a completed JSON audio manifest.
 
 ## 2. Enforce Rights And Identity Controls
@@ -37,6 +38,7 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 ## 4. Produce The Approved Dry Master
 
 - **Listen:** Script-in means script-out. Listen to the whole file. Do not report done without a real playable file you heard.
+- **Deliver:** Download and attach the requested audio file. A provider URL, job ID, or “still generating” message is not the deliverable.
 - **Dry:** Keep narration dry (no music/effects).
 - **Integrity:** Never invent job IDs or "it rendered."
 - **Versioning:** Never overwrite an approved master. Version it.
@@ -61,3 +63,5 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - [Audio-To-Video Handoff](references/video-handoff.md) (Video Handoff)
 - [Audio Manifest Template](assets/audio-manifest-template.json) (Brand Voice / Handoff)
 - [Production Brief Template](assets/audio-production-brief-template.md) (Brand Voice)
+- [Brand Voice Package Template](assets/brand-voice-package-template.md) (New or changed recurring voice)
+
