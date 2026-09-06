@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": {
     "id": "",
     "name": "",
@@ -14,8 +14,11 @@
   },
   "voice": {
     "speaker": "",
+    "venture": "",
+    "identity_version": "",
     "provider": "",
     "model": "",
+    "voice_id": "",
     "voice_reference": "",
     "identity_package_reference": "",
     "consent_or_licence_reference": ""
@@ -48,3 +51,4 @@
     "notes": ""
   }
 }
+
