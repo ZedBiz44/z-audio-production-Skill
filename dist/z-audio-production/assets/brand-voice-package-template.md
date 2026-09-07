@@ -1,6 +1,6 @@
 # Brand Voice Package
 
-Use one completed package for each recurring venture or character voice. Store private recordings and consent documents in approved restricted storage. Put references here, not credentials or private source files.
+Use one completed package for each recurring venture or character voice. Store it in the **Video-Creation** Google Shared Drive under `Ventures/<Venture>/Brand-Voice-Packages/<Voice-Name>/`: https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA. Keep private recordings and consent documents in the restricted subfolder. Put links and references in this brief, not credentials or private source files.
 
 ## Ownership
 
@@ -57,10 +57,12 @@ Use one completed package for each recurring venture or character voice. Store p
 
 - Approved by and date:
 - Package folder:
+- Shared Drive folder ID and link:
 - Agent or production team receiving it:
 - First production script:
 - Required output formats:
 - Notes:
 
 The receiving agent must use the exact approved voice ID and settings. It must not clone, replace, or materially change the voice without a new approval cycle.
+
 
