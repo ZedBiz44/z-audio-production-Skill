@@ -34,6 +34,9 @@ The video skill owns:
 - A visual revision must not trigger audio regeneration unless the script or approved performance changes.
 - An audio revision marks affected avatar clips, timing files, captions, and video proofs as stale.
 - The video skill may request a new audio version, but it must not silently edit or replace the approved master.
+- The permanent handoff location is the **Video-Creation** Google Shared Drive: https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA.
+- Store the package under `Ventures/<Venture>/Projects/<YYYY-MM-DD>-<Project-Name>/`. Audio owns `Audio/` and its audio records; video owns `Visuals/`, `Assembly/`, `Proofs/`, and `Final/`. Both workflows may use `Records/`.
+- A provider URL, conversation attachment, or temporary VPS path is not permanent storage. Verify the retained files in the Shared Drive before handoff.
 
 ## Minimum Handoff Manifest Fields
 
@@ -47,7 +50,9 @@ The video skill owns:
 - known pronunciation decisions and open issues;
 - cost and provider job references;
 - downstream owner and handoff date.
+- Shared Drive project-folder ID and link.
 
 ## Acceptance Check
 
 The video workflow should reject the handoff when the master is unapproved, the script versions disagree, required files are missing, scene timecodes exceed the master duration, or consent and voice identity references are unresolved.
+
