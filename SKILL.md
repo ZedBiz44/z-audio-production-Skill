@@ -43,13 +43,23 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - **Integrity:** Never invent job IDs or "it rendered."
 - **Versioning:** Never overwrite an approved master. Version it.
 
-## 5. Create Derivatives From The Master
+## 5. Store The Production Package
+
+- Use the **Video-Creation** Google Shared Drive as the permanent storage location for all ZedBiz audio and video production: [open the Shared Drive](https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA).
+- Treat Shared Drive ID `0AAlVr-SRjSeQUk9PVA` as the fixed root. Do not save the only retained copy in a personal My Drive, provider account, chat thread, or temporary VPS folder.
+- Save project audio under `Ventures/<Venture>/Projects/<YYYY-MM-DD>-<Project-Name>/Audio/`. Put the approved full narration in `Master/`, exact scene extracts in `Scenes/`, and useful source or pronunciation references in `References/`.
+- Save recurring voice identity records under `Ventures/<Venture>/Brand-Voice-Packages/<Voice-Name>/`. Keep source recordings, consent, and licence material in the restricted subfolder and grant access only to approved team members.
+- Save the audio manifest, provider job reference, cost, settings, filenames, hashes when required, approval status, and Drive links under the project `Records/` folder.
+- Local agent or VPS storage is temporary working space. After listening and technical checks, upload the retained files to the Shared Drive and verify them there before reporting completion.
+- If the venture or project folder does not exist, create it under the fixed Shared Drive root when ordinary folder creation is authorized. Stop if the correct venture, permissions, or destination is unclear.
+
+## 6. Create Derivatives From The Master
 
 - The approved dry master is the timing and performance source.
 - Do not regenerate the same line for a new pose or scene.
 - Video owns visuals. Audio does not make avatars, B-roll, captions, or final video.
 
-## 6. Failure And Stop Conditions
+## 7. Failure And Stop Conditions
 
 - One transient retry after checking real job status.
 - Two paid failures on the same unit → stop.
@@ -64,4 +74,5 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - [Audio Manifest Template](assets/audio-manifest-template.json) (Brand Voice / Handoff)
 - [Production Brief Template](assets/audio-production-brief-template.md) (Brand Voice)
 - [Brand Voice Package Template](assets/brand-voice-package-template.md) (New or changed recurring voice)
+
 
