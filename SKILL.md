@@ -42,6 +42,8 @@ Confirm the project, script, voice route, deadline, and cost ceiling. Choose the
 - **Dry:** Keep narration dry (no music/effects).
 - **Integrity:** Never invent job IDs or "it rendered."
 - **Versioning:** Never overwrite an approved master. Version it.
+- **Performance:** Direct meaningful pace, emphasis, pause, emotion, and energy changes. “Clean and polished” is not enough when the character is supposed to feel human.
+- **Targeted takes:** When a line is flat or difficult, generate or record a short alternate take for that passage. Assemble the chosen passages into one continuous approved master; do not hand video production several unrelated scene performances.
 
 ## 5. Store The Production Package
 

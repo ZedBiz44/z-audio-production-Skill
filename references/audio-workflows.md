@@ -26,6 +26,9 @@
 - Save the authoritative video-production master as 48 kHz PCM WAV unless the receiver requires another lossless format.
 - Create MP3, AAC, or other compressed files only as review or delivery derivatives.
 - Download and attach or save every requested deliverable. Do not substitute a provider link or status message for the audio file.
+- Add a compact performance map before the final take when the script needs personality: opening energy, one or two emphasis points, pace changes, an intentional pause or reaction, and ending energy.
+- Use short alternate takes for a failed or flat passage when the route allows it. Choose the strongest take, match its level and room tone, and assemble one continuous approved master before creating scene extracts.
+- Review transitions between assembled passages for changes in identity, volume, tempo, ambience, or emotional continuity.
 
 ## Cleanup And Mastering
 
